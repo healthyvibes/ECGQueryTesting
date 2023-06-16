@@ -20,22 +20,17 @@ service_context = ServiceContext.from_defaults(llm_predictor=llm_predictor)
 # build index
 index = KeywordTableIndex.from_documents(documents, service_context=service_context)
 
-# get response from query
+index.storage_context.persist()
 query_engine = index.as_query_engine()
 
 # Query
-
 def pdfQuery(message):
 
     response = query_engine.query(message)
 
     print(response)
 
-pdfQuery("What is patient's date of birth?")
 
 
-"""pdfQuery("at  hour 11:00 , what the HR min , max  and mean value of HR")
-pdfQuery("Which hour has  highest HR Max")
-pdfQuery("Which hour has min HR Min")
-pdfQuery("Give the list of Ventricular Runs, and when did they occur")
-"""
+#pdfQuery("Give me all the times where HR Max is greater 80 and the time where the HR Min is less than 50")
+
