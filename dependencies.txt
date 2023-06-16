@@ -1,0 +1,7 @@
+python-dotenv
+langchain
+openai
+llama-index
+pypdf
+sentence_transformers
+pinecone
