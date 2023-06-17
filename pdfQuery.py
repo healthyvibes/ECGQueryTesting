@@ -5,7 +5,7 @@ from llama_index import (
     LLMPredictor,
     ServiceContext,
     StorageContext,
-    load_index_from_storage
+    load_index_from_storage,
 )
 from langchain import OpenAI
 
@@ -16,19 +16,17 @@ class PDFQuery:
     def __init__(self, cfg):
         self._cfg = cfg
         # PDF Folder
-        self.documents = None
+        self.documents = SimpleDirectoryReader('%s' % self._cfg["dir"]).load_data()
 
         # define LLM
-        self.llm_predictor = LLMPredictor(llm=OpenAI(temperature=0.7))
+        self.llm_predictor = LLMPredictor(llm=OpenAI(temperature=0))
         self.service_context = ServiceContext.from_defaults(llm_predictor=self.llm_predictor)
-
 
         self.index = None
         self.query_engine = None
 
     #Build Index from storage folder
     def initStorage(self):
-        self.documents = SimpleDirectoryReader('%s' % self._cfg["dir"]).load_data()
         index = KeywordTableIndex.from_documents(self.documents, service_context=self.service_context)
 
         index.storage_context.persist()
@@ -55,4 +53,3 @@ if __name__ == "__main__":
 obj = PDFQuery(cfg=ex)
 #obj.initStorage()
 obj.loadStorage()
-#obj.pdfQuery("What is the patient's date of birth")
