@@ -20,8 +20,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain import OpenAI
 from llama_index import StorageContext, load_index_from_storage, ServiceContext, KeywordTableIndex
 
-os.environ["OPENAI_API_KEY"] = "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"
-openai.api_key = "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"
+#api keys
 
 def index_documents(folder):
     max_input_size    = 4096
