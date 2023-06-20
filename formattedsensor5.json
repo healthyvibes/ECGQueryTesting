@@ -1,0 +1,145 @@
+{
+    "2": [
+        {
+            "sensor": "RR",
+            "reading": 14,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "RR",
+            "reading": 16,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "RR",
+            "reading": 18,
+            "timestamp":1687207967000
+        },
+        {
+            "sensor": "HR",
+            "reading": 70,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "HR",
+            "reading": 69,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "HR",
+            "reading": 58,
+            "timestamp":1687207967000
+        },
+        {
+            "sensor": "BG",
+            "reading": 90,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "BG",
+            "reading": 100,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "BG",
+            "reading": 95,
+            "timestamp":1687207967000
+        }
+
+    ], 
+    "3": [
+        {
+            "sensor": "RR",
+            "reading": 12,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "RR",
+            "reading": 16,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "RR",
+            "reading": 14,
+            "timestamp":1687207967000
+        },
+        {
+            "sensor": "HR",
+            "reading": 70,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "HR",
+            "reading": 75,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "HR",
+            "reading": 80,
+            "timestamp":1687207967000
+        },
+        {
+            "sensor": "BG",
+            "reading": 90,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "BG",
+            "reading": 90,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "BG",
+            "reading": 95,
+            "timestamp":1687207967000
+        }
+
+    ],
+    "4": [
+        {
+            "sensor": "RR",
+            "reading": 14,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "RR",
+            "reading": 12,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "RR",
+            "reading": 12,
+            "timestamp":1687207967000
+        },
+        {
+            "sensor": "HR",
+            "reading": 70,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "HR",
+            "reading": 72,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "HR",
+            "reading": 58,
+            "timestamp":1687207967000
+        },
+        {
+            "sensor": "BG",
+            "reading": 90,
+            "timestamp":1686862367000
+        },
+        {
+            "sensor": "BG",
+            "reading": 120,
+            "timestamp":1687035167000
+        },
+        {
+            "sensor": "BG",
+            "reading": 100,
+            "timestamp":1687207967000
+        }
+    ]
+}
