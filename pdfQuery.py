@@ -5,6 +5,7 @@ from llama_index import (
     LLMPredictor,
     ServiceContext,
     StorageContext,
+    PromptHelper,
     load_index_from_storage,
 )
 from langchain import OpenAI
@@ -14,6 +15,7 @@ load_dotenv()
 
 class PDFQuery:
     def __init__(self, cfg):
+
         self._cfg = cfg
         # PDF Folder
         self.documents = SimpleDirectoryReader('%s' % self._cfg["dir"]).load_data()
@@ -24,6 +26,18 @@ class PDFQuery:
 
         self.index = None
         self.query_engine = None
+
+        self.max_input_size    = 4096
+        self.num_outputs       = 512
+        self.chunk_size_limit  = 600
+        self.max_chunk_overlap = 20
+
+        self.prompt_helper =     prompt_helper = PromptHelper(
+            max_input_size=self.max_input_size, 
+            num_output=self.num_outputs, 
+            max_chunk_overlap=self.max_chunk_overlap, 
+            chunk_size_limit=self.chunk_size_limit)
+
 
     #Build Index from storage folder
     def initStorage(self):
@@ -53,3 +67,4 @@ if __name__ == "__main__":
 obj = PDFQuery(cfg=ex)
 #obj.initStorage()
 obj.loadStorage()
+obj.pdfQuery("What is the patient's date of birth?")

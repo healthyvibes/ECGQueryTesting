@@ -28,7 +28,7 @@ def index_documents(folder):
     max_chunk_overlap = 20
     chunk_size_limit  = 600
 
-    prompt_helper = PromptHelper(max_input_size, num_outputs, max_chunk_overlap=max_chunk_overlap, chunk_size_limit=chunk_size_limit)
+    prompt_helper = PromptHelper(max_input_size, num_output=num_outputs, max_chunk_overlap=max_chunk_overlap, chunk_size_limit=chunk_size_limit)
     
     llm_predictor = LLMPredictor(
         llm = ChatOpenAI(temperature = 0, 
