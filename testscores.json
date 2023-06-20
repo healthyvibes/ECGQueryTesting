@@ -1,0 +1,73 @@
+{
+    "Sarah": [
+        {
+            "subject": "Math",
+            "score": 90
+        },
+        {
+            "subject": "Science",
+            "score": 90
+        },
+        {
+            "subject": "Reading",
+            "score": 95
+        }
+    ], 
+    "Matt": [
+        {
+            "subject": "Math",
+            "score": 80
+        },
+        {
+            "subject": "Science",
+            "score": 100
+        },
+        {
+            "subject": "Reading",
+            "score": 80
+        }
+    ],
+    "Devin": [
+        {
+            "subject": "Math",
+            "score": 100
+        },
+        {
+            "subject": "Science",
+            "score": 90
+        },
+        {
+            "subject": "Reading",
+            "score": 95
+        }
+    ],
+    "Hannah": [
+        {
+            "subject": "Math",
+            "score": 90
+        },
+        {
+            "subject": "Science",
+            "score": 70
+        },
+        {
+            "subject": "Reading",
+            "score": 80
+        }
+    ],
+    "Kevin": [
+        {
+            "subject": "Math",
+            "score": 75
+        },
+        {
+            "subject": "Science",
+            "score": 80
+        },
+        {
+            "subject": "Reading",
+            "score": 90
+        }
+    ]
+
+}

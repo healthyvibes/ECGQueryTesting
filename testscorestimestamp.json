@@ -1,0 +1,239 @@
+{
+    "Sarah": [
+        {
+            "subject": "Math",
+            "score": 90, 
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Math",
+            "score": 91, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Math",
+            "score": 92, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Science",
+            "score": 90,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Science",
+            "score": 92, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Science",
+            "score": 92, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Reading",
+            "score": 95,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Reading",
+            "score": 93, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Reading",
+            "score": 94, 
+            "timestamp":1687207967000
+        }
+        
+    ], 
+    "Matt": [
+        {
+            "subject": "Math",
+            "score": 80,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Math",
+            "score": 81, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Math",
+            "score": 82, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Science",
+            "score": 100,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Science",
+            "score": 100, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Science",
+            "score": 95, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Reading",
+            "score": 80,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Reading",
+            "score": 85, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Reading",
+            "score": 87, 
+            "timestamp":1687207967000
+        }
+    ],
+    "Devin": [
+        {
+            "subject": "Math",
+            "score": 100,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Math",
+            "score": 99, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Math",
+            "score": 98, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Science",
+            "score": 90,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Science",
+            "score": 92, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Science",
+            "score": 95, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Reading",
+            "score": 95,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Reading",
+            "score": 93, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Reading",
+            "score": 90, 
+            "timestamp":1687207967000
+        }
+    ],
+    "Hannah": [
+        {
+            "subject": "Math",
+            "score": 90,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Math",
+            "score": 92, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Math",
+            "score": 93, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Science",
+            "score": 70,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Science",
+            "score": 75, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Science",
+            "score": 78, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Reading",
+            "score": 80,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Reading",
+            "score": 83, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Reading",
+            "score": 85, 
+            "timestamp":1687207967000
+        }
+    ],
+    "Kevin": [
+        {
+            "subject": "Math",
+            "score": 75,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Math",
+            "score": 79, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Math",
+            "score": 82, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Science",
+            "score": 80,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Science",
+            "score": 80, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Science",
+            "score": 85, 
+            "timestamp":1687207967000
+        },
+        {
+            "subject": "Reading",
+            "score": 90,
+            "timestamp":1686862367000
+        },
+        {
+            "subject": "Reading",
+            "score": 87, 
+            "timestamp":1687035167000
+        },
+        {
+            "subject": "Reading",
+            "score": 90, 
+            "timestamp":1687207967000
+        }
+    ]
+
+}
